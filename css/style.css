@@ -24,7 +24,6 @@ a{
     flex-direction: column;
     align-items: center;
     background-color: #53389E;
-    padding: 16px;
     gap: 64px;
     padding-bottom: 0;
 }
@@ -37,6 +36,7 @@ a{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 16px;
 }
 .headerNavBoxWithLinksAndLogo{
     display: flex;
