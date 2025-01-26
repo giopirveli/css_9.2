@@ -28,7 +28,7 @@ a{
     gap: 64px;
     padding-bottom: 0;
 }
-.header >a{
+.headerNav >a{
     display: none;
 }
 .headerNav{
@@ -675,7 +675,7 @@ line-height: 24px;
     .headerNavBtnBox,.headerNavLinksBox{
         display: none;
     }
-    .header >a{
+    .headerNav >a{
         display: inline;
     }
     .firstConteinersConteiner{
@@ -733,7 +733,7 @@ line-height: 24px;
         margin-left: 16px;
         margin-right: 16px;
     }
-    .header >a{
+    .headerNav >a{
         display: inline;
     }
     .entarenceBoxTextPart span{
