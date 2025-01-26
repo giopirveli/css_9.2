@@ -1,0 +1,919 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+button,input{
+    cursor: pointer;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+.pageContentMaxSize{
+    max-width: 1250px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #53389E;
+    padding: 16px;
+    gap: 64px;
+    padding-bottom: 0;
+}
+.header >a{
+    display: none;
+}
+.headerNav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.headerNavBoxWithLinksAndLogo{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.headerNavLinksBox select{
+background-color: transparent;
+border: none;
+color: #fff;
+font-weight: 600;
+line-height: 24px; 
+}
+.headerNavLinksBox a{
+    color: #FFF;
+    line-height: 24px; 
+}
+.firstBtnStyle{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+align-items: center;
+border: none;
+color: #414651;
+}
+.secondBtnStyle{
+    background: #7F56D9;
+    border-radius: 8px;
+    padding: 12px 16px;
+align-items: center;
+color: #fff;
+border: none;
+}
+.headerNavBtnBox{
+    display: flex;
+    gap: 12px;
+}
+.entarencepageBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 64px;
+    width: 100%;
+}
+.entarencepageBox span{
+    color: #E9D7FE;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px; 
+}
+.entarencepageBox h1{
+    color: #FFF;
+font-size: 72px;
+font-weight: 600;
+line-height: 90px;
+}
+.entarenceBoxTextPart{
+    max-width: 770px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+.entarencepageBoxBtnBox{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.entarencepageBoxBtnBox >:first-child{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.entarencepageBoxBtnBox >:last-child{
+padding: 16px 22px;
+}
+.cardsStyle{
+    background-image: url(../images/cardsForMainPage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1280px;
+    width: 100%;
+    min-height: 450px;
+}
+/*        header        ending                          */
+/*         main Starts                             */
+.contentMaxWidth{
+    max-width: 1280px;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+.mainContentDirection{
+    display: flex;
+    justify-content: center;
+}
+.growingCompanyBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0 32px;
+}
+.growingCompanyBox span{
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.growingCompanylogoBox{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.firstConteinersConteiner{
+    display: flex;
+    gap: 40px;
+}
+.firstConteiner{
+    background: #F2EDFF;
+    padding: 96px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.firstConteinerTitleBox{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+max-width: 320px;
+width: 100%;
+}
+.firstConteinerTitleBox img{
+width: fit-content;
+}
+.firstConteinerTitleBox h2{
+    color: #181D27;
+    font-size: 36px;
+       font-weight: 600;
+    line-height: 44px;
+}
+.firstConteinerTitleBox p{
+    color: #535862;
+font-size: 20px;
+line-height: 30px; 
+}
+.firstConteinerOrdinaryBigBox{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.firstConteinerOrdinarySmallBox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 300px;
+width: 100%;
+}
+.firstConteinerOrdinarySmallBox p{
+    color: #535862;
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.firstConteinerOrdinarySmallBox span{
+    color: #181D27;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+.secondConteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:  64px;
+    padding: 0 80px;
+}
+.secondConteinerTitleBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 770px;
+    width: 100%;
+    align-self: flex-start;
+}
+.secondConteinerTitleBox h2{
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+
+}
+.secondConteinerTitleBox :first-child{
+    color: #6941C6;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px; 
+}
+.secondConteinerTitleBox :last-child{
+    color: #535862;
+font-size: 20px;
+line-height: 30px; 
+}
+.secondConteinerMainContent{
+    display: flex;
+    gap: 64px;
+    width: 100%;
+}
+.GiveUsShotConteinerOnlyMobile{
+    display: none;
+}
+.secondConteinerMainContentTextPart{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.secondConteinerMainContentOrdinaryBox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 16px;
+    border-left: 4px solid #F5F5F5;
+    cursor: pointer;
+    max-width: 560px;
+    width: 100%;
+    min-width: 220px;
+}
+.secondConteinerMainContentTextPart >:first-child{
+    border-left: 4px solid #9E77ED;
+}
+.secondConteinerMainContentOrdinaryBox p{
+    color: #535862;
+    font-size: 16px;
+    line-height: 24px; 
+}
+.secondConteinerMainContentOrdinaryBox >:first-child{
+    color: #181D27;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px; 
+}.secondConteinerMainContentOrdinaryBox >:last-child{
+    color: #6941C6;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+display: flex;
+gap: 6px;
+align-items: center;
+}
+.PricingPlansConteiner{
+    display: flex;
+    gap: 64px;
+    background: #F2EDFF;
+    padding: 96px 80px;
+}
+.PricingPlansConteinerTextpart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 380px;
+    width: 100%;
+}
+.PricingPlansConteinerTextpart span{
+    color: #6941C6;
+    font-size: 16px;
+   font-weight: 600;
+    line-height: 24px; 
+}
+
+.PricingPlansConteinerTextpart h2{
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.PricingPlansConteinerTextpart p{
+    color: #535862;
+    font-size: 18px;
+    line-height: 28px; 
+}
+.PricingPlanCardsConteiner{
+    display: flex;
+    gap: 32px;
+}
+.ordinaryPricingPlanCard{
+display: flex;
+flex-direction: column;
+gap: 24px;
+align-items: center;
+background-color: #fff;
+justify-content: space-between;
+max-width: 340px;
+width: 100%;
+flex: 1;
+border-radius: 16px;
+}
+.ordinaryPricingPlanCardTextPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+.ordinaryPricingPlanCardTextPart :nth-child(2){
+    color: #6941C6;
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+.ordinaryPricingPlanCardTextPart :nth-child(3){
+    color: #181D27;
+font-size: 48px;
+font-weight: 600;
+line-height: 60px; 
+
+}
+.ordinaryPricingPlanCardTextPart :nth-child(4){
+    color: #535862;
+font-size: 16px;
+line-height: 24px; 
+}
+.ordinaryPricingPlanCardOportunityList li{
+    color: #535862;
+    font-size: 16px;
+    line-height: 24px; 
+    position: relative;
+}
+.ordinaryPricingPlanCardOportunityList {
+list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 16px;
+margin-left: 36px;
+}
+.ordinaryPricingPlanCardOportunityList >li::before{
+content: url(../images/Check\ icon\ \(2\).svg);
+position: absolute;
+left: -36px;
+}
+.ordinaryPricingPlanCardBtnBox{
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px ;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.ordinaryPricingPlanCardBtnBox button{
+width: 100%;
+border-radius: 8px;
+background: #7F56D9;
+text-align: center;
+border: none;
+padding: 12px 18px;
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px; 
+}
+.ordinaryPricingcardTextPart{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    padding-bottom: 0;
+}
+.ReviewersBoxTextPart{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 610px;
+    width: 100%;
+}
+    .ReviewersBoxTextPartDirection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 64px;
+    }
+    .smallBox{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .ReviewersBoxSmallBox span{
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .ReviewersBoxSmallBox{
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    }
+    .ReviewersBoxSmallBoxPinkSpan{
+        color: #E9D7FE;
+font-size: 16px;
+line-height: 24px; 
+    }
+    .wightSmallLine{
+        background-color: #FFF;
+        width: 16px;
+        height: 1.5px;
+    }
+    .serviceReviewersBox{
+        display: flex;
+        border-radius: 24px;
+        background: #53389E;
+        flex: 1;
+    }
+    .womanImg{
+        border-radius: 24px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        background-image: url(../images/Image\ \(3\).png);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .modernScreenImg{
+        background-image: url(../images/Modern\ screen\ mockup.svg);
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .ReviewersBoxTextPart h2{
+        color: #FFF;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 44px; 
+    }
+    .ReviewersBoxTextPart >img{
+        width: fit-content;
+    }
+    .ReviewersBoxPages{
+        display: flex;
+        gap: 16px;
+    }
+    .ReviewersBoxPages a:first-child{
+    background-color: #FFF;
+    }
+    .ReviewersBoxPages a{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #9E77ED;
+    }
+    .thirdBtnStyle{
+        padding: 12px 18px;
+        border-radius: 8px;
+        width: 100%;
+        background: #7F56D9;
+        justify-content: center;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px; 
+    }
+    /*     main end                 */
+    /*      footer   starts                  */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #FAFAFA;
+    padding: 80px;
+    padding-top:64px ;
+    padding-bottom: 48px;
+}
+.footerContentMaxWidth{
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.footerContentFirstConteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.footerContentFirstConteinerTitleBox{
+    max-width: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footerContentFirstConteinerTitleBox p{
+    color: #535862;
+    font-size: 16px;
+    line-height: 24px; 
+}
+.footerContentFirstConteinerMainPart{
+    display: flex;
+    gap: 32px;
+}
+.footerNavBox{
+    display: flex;
+    gap: 35px;
+    width: 100%;
+}
+.footerNavListBox{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 150px;
+    width: 100%;
+}
+.footerNavListBox a{
+    color: #6941C6;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px; 
+}
+.footerNavListBox span{
+    color: #181D27;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.footerEmailForm{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footerEmailForm label{
+    color: #181D27;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px; 
+}
+.footerEmailFormInputsBox{
+    display: flex;
+    gap: 16px;
+}
+.footerEmailFormInputsBox :first-child{
+padding: 10px 14px;
+border-radius: 8px;
+border: 1px solid #7F56D9;
+background: #FFF;
+box-shadow: 4px 4px 20.9px 0px rgba(127, 86, 217, 0.25);
+}
+.footerEmailFormInputsBox :first-child::placeholder{
+    color: #717680;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footerEmailFormInputsBox :last-child{
+border-radius: 8px;
+padding: 10px 16px;
+display: flex;
+justify-content: center;
+background: #7F56D9;
+border: none;
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px; 
+}
+.footerContentSecondConteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E9EAEB;
+    padding-top: 32px;
+}
+.footerContentSecondConteiner span{
+    color: #717680;
+font-size: 16px;
+line-height: 24px;
+}
+.footerContentSomeoneLinksBox{
+    display: flex;
+    gap: 16px;
+}
+.footerContentSomeoneLinksBox a{
+    color: #717680;
+font-size: 17px;
+line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px ) and (max-width:1024px){
+    .headerNavBtnBox,.headerNavLinksBox{
+        display: none;
+    }
+    .header >a{
+        display: inline;
+    }
+    .firstConteinersConteiner{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .firstConteinerTitleBox{
+        align-self: flex-start;
+    }
+    .PricingPlansConteiner{
+        flex-direction: column;
+    }
+    .serviceReviewersBox{
+        flex-direction: column;
+    }
+    .womanImg{
+        border-radius: 24px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        background-image: url(../images/Image\ \(3\).png);
+        min-height: 766px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+    .footerContentFirstConteiner{
+        flex-direction: column;
+    }
+    .footerEmailForm{
+        order: -1;
+    }
+    .footerContentFirstConteinerMainPart{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .headerNavBtnBox,.headerNavLinksBox{
+        display: none;
+    }
+    .main >*{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .header >a{
+        display: inline;
+    }
+    .entarenceBoxTextPart span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .entarenceBoxTextPart h1{
+        color: #FFF;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .GiveUsShotConteinerOnlyMobile{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        border-radius: 16px;
+background-color: #53389E;
+    }
+    .GiveUsShotConteinerOnlyMobileMainPart{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        padding: 40px 24px;
+        padding-bottom:0 ;
+    }
+    .GiveUsShotConteinerOnlyMobileMainPart h2{
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px; 
+    }
+    .GiveUsShotConteinerOnlyMobileMainPart p{
+        color: #E9D7FE;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .GiveUsShotConteinerOnlyMobileContentDirection{
+        max-width: 290px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .anotherWomanImg{
+        background-image: url(../images/Image\ \(4\).png);
+        background-repeat: no-repeat;
+        min-height: 460px;
+        background-size: cover;
+        background-position: center top;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+    .entarenceBoxTextPart p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .entarencepageBoxBtnBox{
+        flex-direction: column;
+        width: 100%;
+    }
+    .entarencepageBoxBtnBox button{
+        max-width: 280px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 12px 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .growingCompanylogoBox{
+        max-width: 288px;
+        width: 100%;
+        gap: 16px;
+    }
+    .growingCompanyBox span{
+        max-width: 290px;
+        width: 100%;
+    }
+    .firstConteiner{
+        flex-direction: column;
+        gap: 48px;
+    }
+    .firstConteinersConteiner{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .secondConteiner{
+        flex-direction: column;
+    }
+    .secondConteinerMainContent{
+        flex-direction: column;
+    }
+    .PricingPlansConteiner{
+        flex-direction: column;
+        gap: 48px;
+    }
+    .PricingPlanCardsConteiner{
+        flex-direction: column;
+    }
+    .PricingPlansConteiner{
+        align-items: center;
+    }
+    .PricingPlansConteinerTextpart span{
+        font-size: 14px;
+        line-height: 20px;  
+    }
+    .PricingPlansConteinerTextpart p{
+        font-size: 18px;
+        line-height: 28px; 
+    }
+    .PricingPlansConteinerTextpart h2{
+        font-size: 30px;
+        line-height: 38px; 
+    }
+    .ordinaryPricingPlanCardTextPart{
+        align-items: center;
+    }
+    .ordinaryPricingPlanCardTextPart :nth-child(2){
+        font-size: 20px;
+        line-height: 30px; 
+    }
+    .ordinaryPricingPlanCardTextPart :nth-child(3){
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .ordinaryPricingPlanCardTextPart :nth-child(4){
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ordinaryPricingPlanCardOportunityList li{
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .serviceReviewersBox{
+        flex-direction: column;
+    }
+    .womanImg{
+        min-height: 560px;
+        background-position: center top;
+    }
+    .footerContentFirstConteiner{
+        flex-direction: column;
+        gap: 42px;
+    }
+    .footerNavBox{
+        flex-direction: column;
+    }
+    .footerContentFirstConteinerMainPart{
+        flex-direction: column;
+        gap: 64px;
+    }
+    .footerEmailForm{
+        order: -1;
+    }
+    .ReviewersBoxTextPart h2{
+        font-size: 24px;
+        line-height: 42px; 
+    }
+    .ReviewersBoxSmallBox span{
+        font-size: 18px;
+        line-height: 28px; 
+    }
+    .ReviewersBoxSmallBoxPinkSpan{
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .ReviewersBoxPages a{
+        width: 10px;
+        height: 10px;
+    }
+    .footerContentSecondConteiner{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .footerContentFirstConteinerTitleBox p{
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .footerEmailFormInputsBox{
+        flex-direction: column;
+    }
+}
