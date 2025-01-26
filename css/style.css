@@ -815,6 +815,7 @@ background-color: #53389E;
     .firstConteiner{
         flex-direction: column;
         gap: 48px;
+        padding: 96px 20px;
     }
     .firstConteinersConteiner{
         flex-direction: column;
@@ -822,6 +823,7 @@ background-color: #53389E;
     }
     .secondConteiner{
         flex-direction: column;
+        padding: 96px 20px;
     }
     .secondConteinerMainContent{
         flex-direction: column;
@@ -832,9 +834,11 @@ background-color: #53389E;
     }
     .PricingPlanCardsConteiner{
         flex-direction: column;
+        
     }
     .PricingPlansConteiner{
         align-items: center;
+        padding: 96px 20px;
     }
     .PricingPlansConteinerTextpart span{
         font-size: 14px;
@@ -884,6 +888,9 @@ background-color: #53389E;
     .footerContentFirstConteinerMainPart{
         flex-direction: column;
         gap: 64px;
+    }
+    .ReviewersBoxTextPartDirection{
+        padding: 32px
     }
     .footerEmailForm{
         order: -1;
